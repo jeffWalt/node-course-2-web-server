@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{pageTitle}}</title>
+  </head>
+
+  <body>
+    {{> header}}
+    <h3>{{screamIt welcomeMessage}}</h3> <!-- function screamIt (setup by hbs.registerHelper("screamIt")) -->
+  </body>
+
+  {{> footer}} <!-- For partials , EX: footer.hbs to induee just do {{> footer}} -->
+</html>
